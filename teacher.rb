@@ -16,8 +16,3 @@ class Teacher < Person
   end
 end
 
-teacher = Teacher.new('John Doe', 32, 'Mathematics')
-puts teacher.name
-puts teacher.age
-puts teacher.specialization
-puts teacher.can_use_services?
