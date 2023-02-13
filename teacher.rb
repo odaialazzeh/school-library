@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './person'
 
 # Create class Teacher
@@ -15,4 +13,3 @@ class Teacher < Person
     true
   end
 end
-
