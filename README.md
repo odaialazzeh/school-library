@@ -22,11 +22,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Enumerable <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
 
-**Enumerable** In this project, we will learn how to use a module inside a class. For this, we will create a class MyList and a module MyEnumerable. Our module MyEnumerable will implement a subset of the functionality
- <a href="https://rubydoc.org/core-.0.0/Enumerable.html">Enumerable</a>.
+**School Library** In this project, I will build a school library app to record what books are in the library and who borrows them.
+The app will allow you to:
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,7 +67,7 @@ Clone this repository to your desired folder:
  
 - `Clone the repo`
 ```sh
-   git clone https://github.com/odaialazzeh/Enumerable.git
+   git clone https://github.com/odaialazzeh/school-library.git
 ```
 ### Install
 
@@ -75,14 +78,6 @@ Clone this repository to your desired folder:
 - bundle install
 - sudo apt bundle install (for Linux)
 ```
-
-### Usage
-
-- `To run the project, execute the following command:`
- 
-   - Open the `my_list.rb` file with VSCode or any editor that works 
-     with Ruby and run the code.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,20 +91,14 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/odaialazzeh4)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/odaialazzeh/)
 
-👤 **Pius**
-
-- GitHub: [pius-ssekweyama](https://github.com/SSEKPIUS)
-- Twitter: [@twitterhandle](https://twitter.com/SSEK_PIUS)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/piusssekweyama/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Develop it to accept more Enumerable..
+ - Add more functionality
+ - Design beautiful UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +109,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/odaialazzeh/Enumerable/issues).
+Feel free to check the [issues page](https://github.com/odaialazzeh/school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
