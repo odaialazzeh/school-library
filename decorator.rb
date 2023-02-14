@@ -1,7 +1,9 @@
 require './nameable'
 
-class Decorator < Nameable 
-  def initialize(nameable) 
+# Create class Decorator
+class Decorator < Nameable
+  def initialize(nameable)
+    super()
     @nameable = nameable
   end
 

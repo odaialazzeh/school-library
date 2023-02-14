@@ -1,5 +1,6 @@
 require './decorator'
 
+# Create class TrimmerDecorator
 class TrimmerDecorator < Decorator
   def correct_name
     name = @nameable.correct_name
