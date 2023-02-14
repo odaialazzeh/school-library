@@ -1,7 +1,7 @@
 require './nameable'
 
-class Decorator < Nameable # rubocop:todo Style/Documentation
-  def initialize(nameable) # rubocop:todo Lint/MissingSuper
+class Decorator < Nameable 
+  def initialize(nameable) 
     @nameable = nameable
   end
 
