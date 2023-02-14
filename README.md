@@ -79,6 +79,13 @@ Clone this repository to your desired folder:
 - sudo apt bundle install (for Linux)
 ```
 
+### Usage
+
+- `To run the project, execute the following command:`
+ 
+   - Open the `test.rb` file with VSCode or any editor that works 
+     with Ruby and run the code.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
