@@ -1,11 +1,19 @@
+require './classroom'
 require './person'
-require './decorator'
-require './capitalize_decorator'
-require './trimmer_decorator'
+require './rental'
+require './book'
+require './student'
 
-person = Person.new(22, 'maximilianus')
-puts person.correct_name
-capitalized_person = CapitalizeDecorator.new(person)
-puts capitalized_person.correct_name
-capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
-puts capitalized_trimmed_person.correct_name
+room = Classroom.new('A1')
+student = Student.new(room, 16, 'John Doe')
+room.add_student(student)
+book = Book.new('War and Peace', 'Leo Tolstoy')
+
+puts room.label
+# Output: "A1"
+puts room.students.first.name
+# Output: "John Doe"
+puts book.title
+# Output: "War and Peace"
+puts book.author
+# Output: "Leo Tolstoy"
