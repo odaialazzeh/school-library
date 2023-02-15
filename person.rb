@@ -11,6 +11,11 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
+  end
+
+  def add_rentals(book, date)
+    @rentals << Rental.new(book, date, self)
   end
 
   private
