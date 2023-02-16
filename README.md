@@ -82,10 +82,9 @@ Clone this repository to your desired folder:
 ### Usage
 
 - `To run the project, execute the following command:`
- 
-   - Open the `test.rb` file with VSCode or any editor that works 
-     with Ruby and run the code.
-
+ ```
+    ruby main.rb
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
