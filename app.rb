@@ -10,6 +10,7 @@ class App
     @books = []
     @students = []
     @teachers = []
+    @people = []
     @rentals = []
   end
 
@@ -90,6 +91,7 @@ class App
     parent_permission = gets.chomp
     student = Student.new(student_classroom, student_age, student_name, parent_permission: parent_permission)
     @students << student
+    @people << student
     puts 'Student created successfully'
   end
 
@@ -102,6 +104,7 @@ class App
     teacher_specialization = gets.chomp
     teacher = Teacher.new(teacher_specialization, teacher_age, teacher_name)
     @teachers << teacher
+    @people << teacher
     puts 'Teacher created successfully'
   end
 
@@ -117,6 +120,18 @@ class App
   end
 
   # ========================= Create a rental method =============================
+
+  def display_people
+    if @people.empty?
+      puts 'No people found. Please add some people to the list first.'
+    else
+      @people.each_with_index do |person, index|
+        puts "#{index}) [#{person.class}] ID: #{person.id}, Name: #{person.name}, Age: #{person.age}"
+      end
+    end
+    nil
+  end
+
   def create_rental
     if @books.empty? || (@teachers.empty? && @students.empty?)
       puts 'list are empty'
@@ -127,9 +142,9 @@ class App
       book_name = @books[book_number]
 
       puts 'Select a person from the following list by number (not id)'
-      list_people
+      display_people
       person_number = gets.chomp.to_i
-      person_name = @teachers[person_number] || @students[person_number]
+      person_name = @people[person_number]
 
       print 'Date:'
       date = gets.chomp
