@@ -1,0 +1,32 @@
+[
+  {
+    "id": 909,
+    "name": "max",
+    "age": 12,
+    "classroom": "math",
+    "parent_permission": true,
+    "class": "Student"
+  },
+  {
+    "id": 187,
+    "name": "Jamal",
+    "age": 55,
+    "specialization": "History",
+    "class": "Teacher"
+  },
+  {
+    "id": 498,
+    "name": "odai",
+    "age": 18,
+    "classroom": "computer",
+    "parent_permission": true,
+    "class": "Student"
+  },
+  {
+    "id": 822,
+    "name": "Fadi",
+    "age": 66,
+    "specialization": "sport",
+    "class": "Teacher"
+  }
+]
