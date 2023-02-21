@@ -97,6 +97,12 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/odaialazzeh4)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/odaialazzeh/)
 
+👤 **Moses**
+
+- GitHub: [Moses-Wamae](https://github.com/MosDevx)
+- Twitter: [@twitterhandle](https://twitter.com/moseswamae7)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/moses-wamae-a13a67244/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
