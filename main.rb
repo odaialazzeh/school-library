@@ -1,6 +1,6 @@
 require './app'
 require './option_selector'
-​
+
 def display_options
   'Please choose an option by entering a number between 1 to 7:
   1 - List of all books
@@ -11,18 +11,18 @@ def display_options
   6 - List of all rental for given id
   7 - Exit'
 end
-​
+
 def user_option
   user_choice = gets.chomp.to_i
   user_choice.positive? && user_choice <= 7 ? user_choice : 'Invalid'
 end
-​
+
 def main
   choice = OptionSelector.new
   library = App.new
-​
+
   puts "Welcome to School library App!\n\n"
-​
+
   loop do
     puts '=' * 60
     puts display_options
@@ -32,5 +32,5 @@ def main
     puts option == 'Invalid' ? 'Invalid option, please type correct number!' : choice.available_options(option, library)
   end
 end
-​
+
 main
