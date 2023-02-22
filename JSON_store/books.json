@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "class": "Book"
+  },
+  {
+    "title": "Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "class": "Book"
+  },
+  {
+    "title": "A Song of Ice and Fire",
+    "author": "George R. R. Martin",
+    "class": "Book"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "class": "Book"
+  }
+]

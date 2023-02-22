@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2023/02/21",
+    "person_id": 498,
+    "person_name": "odai",
+    "book_title": "1984",
+    "book_author": "George Orwell",
+    "class": "Rental"
+  },
+  {
+    "date": "2023/02/21",
+    "person_id": 822,
+    "person_name": "Fadi",
+    "book_title": "A Song of Ice and Fire",
+    "book_author": "George R. R. Martin",
+    "class": "Rental"
+  }
+]

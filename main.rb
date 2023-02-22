@@ -1,5 +1,6 @@
 require './app'
 require './option_selector'
+require 'json'
 
 def display_options
   'Please choose an option by entering a number between 1 to 7:
