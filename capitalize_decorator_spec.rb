@@ -13,7 +13,7 @@ describe CapitalizeDecorator do
       subject.correct_name
     end
 
-		it 'capitalizes the result of the correct_name method on the decorated object' do
+    it 'capitalizes the result of the correct_name method on the decorated object' do
       allow(nameable).to receive(:correct_name).and_return('foo')
       expect(subject.correct_name).to eq('Foo')
     end
